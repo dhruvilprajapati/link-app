@@ -1,0 +1,53 @@
+.custom-file-upload input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    background-color: #0d6efd;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 30px;
+    max-width: 180px;
+    cursor: pointer;
+}
+
+.date-input-box {
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #0d6efd;
+    outline: none;
+
+}
+
+.date-input-box:focus {
+    border: 2px solid #0d6efd;
+    outline: none;
+}
+
+.Dash-board-container {
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    grid-gap: 20px;
+    padding: 20px 10px;
+    margin: 20px 0;
+    background-color: #aad9f9cb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px #1d1e1e;
+
+}
+
+.dash-borard-img-video {
+    max-height: 100vh;
+    max-width: 100%;
+    object-fit: cover;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .Dash-board-container {
+        grid-template-columns: 1fr;
+    }
+
+}

@@ -1,0 +1,39 @@
+.login-container {
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.login-input {
+    outline: none;
+}
+
+.login-inputs {
+
+    border: none !important;
+    border-bottom: 2px solid #1abfe5 !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+
+}
+
+.input-icon {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-group {
+    position: relative;
+}
+
+.login-inputs {
+    padding-left: 40px;
+    /* Adjust based on the icon size */
+}
+
+.no-border {
+    border: none !important;
+    box-shadow: none !important;
+}

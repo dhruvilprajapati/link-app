@@ -1,0 +1,27 @@
+.dash-borard-img-video {
+    max-height: 100vh;
+    max-width: 100%;
+    object-fit: cover;
+
+}
+
+
+.Dash-board-container {
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+    grid-gap: 20px;
+    padding: 20px 10px;
+    margin: 20px 0;
+    background-color: #aad9f9cb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0px #1d1e1e;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .Dash-board-container {
+        grid-template-columns: 1fr;
+    }
+
+}
